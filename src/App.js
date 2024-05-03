@@ -1,11 +1,18 @@
 import React from 'react';
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import MainContent from './components/MainContent';
+import Footer from './components/Footer';
 
-const Header = () => {
+function App() {
   return (
-    <header>
-      <h1>Fitness Tracker</h1>
-    </header>
+    <div>
+      <Header />
+      <Navbar />
+      <MainContent />
+      <Footer />
+    </div>
   );
 }
 
-export default Header;
+export default App;
