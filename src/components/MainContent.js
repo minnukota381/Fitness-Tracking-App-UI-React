@@ -1,10 +1,11 @@
+// src/components/MainContent.js
 import React from 'react';
 import { FaRunning, FaChartLine, FaBullseye, FaAppleAlt } from 'react-icons/fa';
-import './MainContent.css';
+import styles from './MainContent.css';
 
 const MainContent = () => {
   return (
-    <div className="container mt-4">
+    <div className={`container mt-4 ${styles.mainContent}`}>
       <h2 className="animate__animated animate__fadeInDown">Welcome to Your Fitness Dashboard</h2>
       <p className="animate__animated animate__fadeInDown">Here's where you can track your fitness journey and achieve your goals!</p>
       <div className="row mt-4">

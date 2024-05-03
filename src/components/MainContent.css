@@ -1,5 +1,11 @@
-/* MainContent.css */
 @import 'animate.css';
+
+.mainContent {
+  background: linear-gradient(45deg, #8e2de2, #4a00e0);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  padding: 2rem;
+}
 
 .animate__bounce {
   animation-duration: 2s;
@@ -9,3 +15,16 @@
 .animate__pulse {
   animation-duration: 1s;
 }
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+

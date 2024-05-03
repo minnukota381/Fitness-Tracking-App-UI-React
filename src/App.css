@@ -1,38 +1,62 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif; /* Use a modern, readable font */
+  line-height: 1.5; /* Improve readability */
+}
+
+/* App Container */
 .App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the container covers the full viewport height */
+}
+
+/* Header */
+.App-header {
+  background: linear-gradient(to right, #4CAF50, #8BC34A); /* Use a modern gradient */
+  padding: 20px;
+  color: #fff;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Main Content */
+.App-main {
+  flex-grow: 1; /* Allow the main content to take up remaining space */
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Footer */
+.App-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Links */
+a {
+  color: #2196F3; /* Use a modern, accessible link color */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .App-header {
+    padding: 10px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .App-main {
+    padding: 10px;
   }
 }
