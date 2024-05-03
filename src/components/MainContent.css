@@ -1,0 +1,11 @@
+/* MainContent.css */
+@import 'animate.css';
+
+.animate__bounce {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.animate__pulse {
+  animation-duration: 1s;
+}
