@@ -1,11 +1,29 @@
 .overview {
-    background-color: #8e44ad;
-    color: white;
-    padding: 20px;
-    border-radius: 8px;
-  }
-  
-  .stats {
-    display: flex;
-    justify-content: space-between;
-  }  
+  padding: 20px;
+  background-color: #f3f4f6;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.overview h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.overview-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.chart {
+  width: 60%;
+  height: 200px;
+  background-color: #e0e0e0;
+  border-radius: 12px;
+}

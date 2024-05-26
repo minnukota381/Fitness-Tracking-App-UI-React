@@ -5,7 +5,6 @@ import Header from './components/Header';
 import Overview from './components/Overview';
 import ActivityCards from './components/ActivityCards';
 import FriendsList from './components/FriendsList';
-import LiveMap from './components/LiveMap';
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <ActivityCards />
       </div>
       <FriendsList />
-      <LiveMap />
     </div>
   );
 }

@@ -1,38 +1,43 @@
 .friends-list {
-  background-color: white;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  width: 300px;
+  background-color: #f3f4f6;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .friends-list h2 {
+  font-size: 1.5rem;
   margin-bottom: 20px;
-  font-size: 18px;
-  color: #333;
 }
 
-.friends-list ul {
+.activity-tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.activity-tabs button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.activity-tabs button:hover {
+  background-color: #ccc;
+}
+
+ul {
   list-style: none;
   padding: 0;
-  margin: 0;
 }
 
-.friend-item {
+li {
   display: flex;
-  align-items: center;
-  margin-bottom: 15px;
-}
-
-.friend-item:last-child {
-  margin-bottom: 0;
-}
-
-.avatar {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin-right: 10px;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .friend-info {
@@ -40,17 +45,14 @@
   flex-direction: column;
 }
 
-.name {
+.friend-name {
   font-weight: bold;
-  color: #333;
 }
 
-.activity {
-  color: #666;
-  font-size: 14px;
+.friend-activity {
+  color: #777;
 }
 
-.time {
-  color: #999;
-  font-size: 12px;
+.friend-time {
+  color: #bbb;
 }

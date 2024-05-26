@@ -11,6 +11,12 @@
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.activity-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .activity-card:last-child {
@@ -26,6 +32,7 @@
 .activity-icon {
   font-size: 40px;
   margin-right: 10px;
+  color: #6a4c93; /* You can adjust the color to fit your design */
 }
 
 .activity-name {

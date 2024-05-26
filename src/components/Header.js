@@ -1,13 +1,18 @@
 import React from 'react';
 import './styles/Header.css';
 
-function Header() {
-  return (
-    <div className="header">
-      <input type="text" placeholder="Search" className="search-bar" />
-      <div className="user-profile">User</div>
-    </div>
-  );
-}
+const Header = () => {
+    return (
+        <header className="header">
+            <div className="header-content">
+                <h1>Dashboard</h1>
+                <input type="text" placeholder="Search" />
+                <div className="profile-pic">
+                    {/* Placeholder for profile picture */}
+                </div>
+            </div>
+        </header>
+    );
+};
 
 export default Header;

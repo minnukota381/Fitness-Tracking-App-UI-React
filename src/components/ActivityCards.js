@@ -1,33 +1,34 @@
 import React from 'react';
+import { FaBiking, FaRunning, FaWalking } from 'react-icons/fa'; // Import FontAwesome icons
 import './styles/ActivityCards.css';
 
-function ActivityCards() {
-  const activities = [
-    { name: 'Bicycle Drill', details: '36 km / week', progress: 45, deadline: '2 days left', icon: '🚴‍♂️' },
-    { name: 'Jogging Hero', details: '12 km / month', progress: 13, deadline: '17 days left', icon: '🏃‍♂️' },
-    { name: 'Healthy Busy', details: '3600 steps / week', progress: 90, deadline: '3 days left', icon: '🚶‍♂️' }
-  ];
+const ActivityCards = () => {
+    const activities = [
+        { name: "Bicycle Drill", progress: 45, goal: "36 km / weeks", daysLeft: 2, icon: <FaBiking /> },
+        { name: "Jogging Hero", progress: 13, goal: "12 km / month", daysLeft: 17, icon: <FaRunning /> },
+        { name: "Healthy Busy", progress: 90, goal: "3600 steps / weeks", daysLeft: 3, icon: <FaWalking /> },
+    ];
 
-  return (
-    <div className="activity-cards">
-      {activities.map((activity, index) => (
-        <div key={index} className="activity-card">
-          <div className="activity-header">
-            <div className="activity-icon">{activity.icon}</div>
-            <div className="activity-name">{activity.name}</div>
-          </div>
-          <div className="progress-bar">
-            <div className="progress" style={{ width: `${activity.progress}%` }}></div>
-          </div>
-          <div className="activity-info">
-            <div className="activity-details">{activity.details}</div>
-            <div className="activity-deadline">{activity.deadline}</div>
-          </div>
+    return (
+        <div className="activity-cards">
+            {activities.map((activity, index) => (
+                <div className="activity-card" key={index}>
+                    <div className="activity-header">
+                        <div className="activity-icon">{activity.icon}</div>
+                        <div className="activity-name">{activity.name}</div>
+                    </div>
+                    <div className="activity-info">
+                        <div className="activity-details">Goal: {activity.goal}</div>
+                        <div className="progress-bar">
+                            <div className="progress" style={{ width: `${activity.progress}%` }}></div>
+                        </div>
+                        <div className="activity-details">{activity.progress}%</div>
+                        <div className="activity-deadline">{activity.daysLeft} days left</div>
+                    </div>
+                </div>
+            ))}
         </div>
-      ))}
-    </div>
-  );
-}
+    );
+};
 
 export default ActivityCards;
-

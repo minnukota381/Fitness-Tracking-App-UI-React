@@ -1,33 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Apply the Poppins font */
+}
+
+body {
+    margin: 0;
+    background-color: #f0f2f5;
+    font-family: 'Poppins', sans-serif; /* Apply the Poppins font */
+}
+
 .app {
-  display: flex;
-  height: 100vh;
-  font-family: 'Arial, sans-serif';
+    display: flex;
+    height: 100vh;
 }
 
 .main-content {
-  flex: 1;
-  padding: 20px;
-  background-color: #f5f5f5;
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f5f5;
 }
 
 .sidebar, .friends-list, .live-map {
-  background-color: white;
-  padding: 20px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .header, .overview, .activity-cards {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .overview, .activity-cards {
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .friends-list, .live-map {
-  width: 300px;
-  flex-shrink: 0;
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.activity-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.activity-card {
+    flex: 1;
+    background-color: #fff;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.activity-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.activity-card:last-child {
+    margin-right: 0;
+}
+
+.activity-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.activity-icon {
+    font-size: 40px;
+    margin-right: 10px;
+    color: #6a4c93; /* Adjust the color to fit your design */
+}
+
+.activity-name {
+    font-size: 18px;
+    font-weight: 600; /* Use a bolder weight for the name */
+    color: #333;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #6a4c93;
+    border-radius: 5px;
+}
+
+.activity-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.activity-details {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.activity-deadline {
+    font-size: 12px;
+    color: #999;
 }
