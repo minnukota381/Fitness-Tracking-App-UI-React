@@ -11,19 +11,15 @@ function Sidebar() {
         <ul>
           <li>
             <FontAwesomeIcon icon={faHome} className="fa-icon" />
-            <span>Home</span>
           </li>
           <li>
             <FontAwesomeIcon icon={faRunning} className="fa-icon" />
-            <span>Activities</span>
           </li>
           <li>
             <FontAwesomeIcon icon={faChartBar} className="fa-icon" />
-            <span>Statistics</span>
           </li>
           <li>
             <FontAwesomeIcon icon={faCog} className="fa-icon" />
-            <span>Settings</span>
           </li>
         </ul>
       </nav>
