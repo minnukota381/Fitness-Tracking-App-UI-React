@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <header className="header">
             <div className="header-content">
-                <h1>Dashboard</h1>
+                <h1>Fitness Tracker</h1>
                 <div className="header-right">
                     <div className="search-container">
                         <input type="text" placeholder="Search" />

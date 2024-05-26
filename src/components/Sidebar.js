@@ -1,12 +1,16 @@
 import React from 'react';
 import './styles/Sidebar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faRunning, faChartBar, faCog } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faRunning, faChartBar, faCog, faSignOutAlt } from '@fortawesome/free-solid-svg-icons'; // Import the logout icon
+
+import { SiNeptune } from "react-icons/si";
 
 function Sidebar() {
   return (
     <div className="sidebar">
-      <div className="logo">Logo</div>
+      <div className="logo">
+        <SiNeptune />
+      </div>
       <nav>
         <ul>
           <li>
@@ -20,6 +24,9 @@ function Sidebar() {
           </li>
           <li>
             <FontAwesomeIcon icon={faCog} className="fa-icon" />
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faSignOutAlt} className="fa-icon" />
           </li>
         </ul>
       </nav>

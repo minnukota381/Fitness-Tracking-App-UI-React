@@ -1,6 +1,7 @@
 // FriendsList.js
 import React from 'react';
 import './styles/FriendsList.css';
+import { FaUserFriends } from "react-icons/fa";
 
 const FriendsList = () => {
     const friends = [
@@ -12,7 +13,7 @@ const FriendsList = () => {
 
     return (
         <div className="friends-list">
-            <h2>Friends</h2>
+            <h2><FaUserFriends />Friends</h2>
             <div className="activity-tabs">
                 <button className="active">Activities</button>
                 <button>Online</button>
