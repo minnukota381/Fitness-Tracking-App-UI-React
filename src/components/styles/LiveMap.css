@@ -1,0 +1,18 @@
+.live-map {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 20px;
+  }
+  
+  .map {
+    background-color: #e2e2e2;
+    height: 200px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #888;
+  }
+  

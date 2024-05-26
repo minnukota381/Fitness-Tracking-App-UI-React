@@ -1,0 +1,149 @@
+/* Dashboard Container */
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 200px;
+    background-color: #5c4ac4;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Main Content */
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-info img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Overview */
+  .overview {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .chart {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    background-color: #5c4ac4;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Activities */
+  .activities {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .activity {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-right: 20px;
+  }
+  
+  /* Challenges */
+  .challenges {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .challenge {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 30%;
+  }
+  
+  .progress {
+    background-color: #e0e0e0;
+    height: 20px;
+    border-radius: 10px;
+  }
+  
+  .progress-bar {
+    background-color: #5c4ac4;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Friends List */
+  .friends-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .friends-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .friends-list img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .friend-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Live Map */
+  .live-map {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

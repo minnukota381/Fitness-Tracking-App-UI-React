@@ -1,62 +1,33 @@
-/* Reset some default styles */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: 'Roboto', sans-serif; /* Use a modern, readable font */
-  line-height: 1.5; /* Improve readability */
-}
-
-/* App Container */
-.App {
+.app {
   display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Ensure the container covers the full viewport height */
+  height: 100vh;
+  font-family: 'Arial, sans-serif';
 }
 
-/* Header */
-.App-header {
-  background: linear-gradient(to right, #4CAF50, #8BC34A); /* Use a modern gradient */
+.main-content {
+  flex: 1;
   padding: 20px;
-  color: #fff;
-  text-align: center;
+  background-color: #f5f5f5;
 }
 
-/* Main Content */
-.App-main {
-  flex-grow: 1; /* Allow the main content to take up remaining space */
+.sidebar, .friends-list, .live-map {
+  background-color: white;
   padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-/* Footer */
-.App-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
+.header, .overview, .activity-cards {
+  margin-bottom: 20px;
 }
 
-/* Links */
-a {
-  color: #2196F3; /* Use a modern, accessible link color */
-  text-decoration: none;
+.overview, .activity-cards {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-  /* Adjust styles for smaller screens */
-  .App-header {
-    padding: 10px;
-  }
-
-  .App-main {
-    padding: 10px;
-  }
+.friends-list, .live-map {
+  width: 300px;
+  flex-shrink: 0;
 }

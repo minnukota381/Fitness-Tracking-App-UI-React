@@ -1,0 +1,11 @@
+.overview {
+    background-color: #8e44ad;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+  }  

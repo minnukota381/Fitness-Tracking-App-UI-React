@@ -1,14 +1,23 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import MainContent from './components/MainContent';
-import Footer from './components/Footer';
+import './App.css';
+import Sidebar from './components/Sidebar';
+import Header from './components/Header';
+import Overview from './components/Overview';
+import ActivityCards from './components/ActivityCards';
+import FriendsList from './components/FriendsList';
+import LiveMap from './components/LiveMap';
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <MainContent />
-      <Footer />
+    <div className="app">
+      <Sidebar />
+      <div className="main-content">
+        <Header />
+        <Overview />
+        <ActivityCards />
+      </div>
+      <FriendsList />
+      <LiveMap />
     </div>
   );
 }

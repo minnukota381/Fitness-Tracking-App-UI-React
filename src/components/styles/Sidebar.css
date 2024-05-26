@@ -1,0 +1,53 @@
+.sidebar {
+  width: 80px;
+  background-color: #6a4c93;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+nav ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+nav ul li span {
+  margin-top: 5px;
+  font-size: 12px;
+  text-align: center;
+}
+
+nav ul li:hover {
+  background-color: #825acb;
+  border-radius: 8px;
+  padding: 10px 0;
+}
+
+nav ul li:hover span {
+  display: block;
+}
+
+.fa-icon {
+  font-size: 24px;
+}
