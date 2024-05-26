@@ -30,7 +30,7 @@ const Overview = () => {
                 pointBorderColor: '#fff',
                 pointHoverBackgroundColor: '#ff6f61',
                 pointHoverBorderColor: '#fff',
-                fill: true, // Enable filling under the line
+                fill: true,
             },
         ],
     });
@@ -57,14 +57,13 @@ const Overview = () => {
                             pointBorderColor: '#fff',
                             pointHoverBackgroundColor: '#ff6f61',
                             pointHoverBorderColor: '#fff',
-                            fill: true, // Enable filling under the line
+                            fill: true,
                         },
                     ],
                 });
             })
             .catch(error => {
                 console.error('Fetch error:', error);
-                // Fallback data or message
                 setData({
                     labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
                     datasets: [
@@ -78,7 +77,7 @@ const Overview = () => {
                             pointBorderColor: '#fff',
                             pointHoverBackgroundColor: '#ff6f61',
                             pointHoverBorderColor: '#fff',
-                            fill: true, // Enable filling under the line
+                            fill: true,
                         },
                     ],
                 });
@@ -113,7 +112,7 @@ const Overview = () => {
         },
         elements: {
             line: {
-                tension: 0.4, // Smoother curves
+                tension: 0.4,
             },
         },
     };
@@ -125,15 +124,33 @@ const Overview = () => {
                 <div className="stats">
                     <div className="stat">
                         <h3>Total Time</h3>
-                        <p>748 Hr</p>
+                        <div className="progress-bar">
+                            <div className="progress" style={{ width: '75%' }}></div>
+                        </div>
+                        <div className="details">
+                            <span>748 Hr</span>
+                            <span>75%</span>
+                        </div>
                     </div>
                     <div className="stat">
                         <h3>Total Steps</h3>
-                        <p>9,178 St</p>
+                        <div className="progress-bar">
+                            <div className="progress" style={{ width: '90%' }}></div>
+                        </div>
+                        <div className="details">
+                            <span>9,178 St</span>
+                            <span>90%</span>
+                        </div>
                     </div>
                     <div className="stat">
                         <h3>Target</h3>
-                        <p>9,200 St</p>
+                        <div className="progress-bar">
+                            <div className="progress" style={{ width: '95%' }}></div>
+                        </div>
+                        <div className="details">
+                            <span>9,200 St</span>
+                            <span>95%</span>
+                        </div>
                     </div>
                 </div>
                 <div className="chart">

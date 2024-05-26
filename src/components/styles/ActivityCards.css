@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+
 }
 
 .activity-card {
@@ -9,7 +10,7 @@
   background-color: #fff;
   margin-right: 20px;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 30px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }

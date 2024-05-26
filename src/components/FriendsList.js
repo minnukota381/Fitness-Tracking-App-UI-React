@@ -14,7 +14,7 @@ const FriendsList = () => {
         <div className="friends-list">
             <h2>Friends</h2>
             <div className="activity-tabs">
-                <button>Activities</button>
+                <button className="active">Activities</button>
                 <button>Online</button>
             </div>
             <ul>

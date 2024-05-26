@@ -26,9 +26,9 @@
 
 .stat {
   background-color: rgba(255, 255, 255, 0.2);
-  padding: 10px;
+  padding: 20px;
   border-radius: 8px;
-  text-align: center;
+  text-align: left;
 }
 
 .stat h3 {
@@ -37,14 +37,29 @@
   font-weight: 600;
 }
 
-.stat p {
-  font-size: 16px;
-  font-weight: 400;
+.stat .progress-bar {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  height: 10px;
+}
+
+.stat .progress {
+  height: 100%;
+  background-color: #fff;
+}
+
+.stat .details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #fff;
 }
 
 .chart {
   flex: 1;
-  height: 300px; /* Adjust height to fit the design */
+  height: 300px;
 }
 
 .chart canvas {

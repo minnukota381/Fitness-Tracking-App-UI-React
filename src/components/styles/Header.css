@@ -1,6 +1,7 @@
 .header {
   background-color: #6a4c93;
-  padding: 20px;
+  margin-top: 0px;
+  padding: 15px;
   color: white;
   display: flex;
   border-radius: 30px;
@@ -33,6 +34,25 @@
   border-radius: 4px;
   font-size: 16px;
 }
+.search-container input{
+  border-radius: 20px;
+}
+.search-container {
+  position: relative;
+}
+
+.search-icon {
+  color: rgb(64, 64, 64);
+  margin-right: 15px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.search-container input[type="text"] {
+  padding-right: 30px;
+}
 
 .profile-pic {
   width: 40px;
@@ -45,5 +65,5 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 50%; /* Make the image rounded */
+  border-radius: 50%;
 }
