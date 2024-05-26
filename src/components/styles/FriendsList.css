@@ -1,7 +1,7 @@
 .friends-list {
   padding: 20px;
   background-color: #ffffff;
-  border-radius: 12px;
+  border-radius: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column; 
@@ -10,7 +10,7 @@
 .live-map {
   padding: 10px;
   background-color: #f3f4f6;
-  border-radius: 12px;
+  border-radius: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 100%;
   margin-top: 20px; 
@@ -23,28 +23,32 @@
 }
 
 .activity-tabs {
+  padding: 5px;
   display: flex;
-  justify-content: flex-end; /* Align tabs to the right */
+  justify-content: center;
   margin-bottom: 20px;
+  background-color: #dfdfdfb4;
+  border-radius: 30px;
 }
 
 .activity-tabs button {
   padding: 10px 20px;
   border: none;
   border-radius: 20px;
-  background-color: #eeeeee;
+  background-color: #ffffff;
   cursor: pointer;
   color: #777777;
+  margin-right: 10px;
   transition: background-color 0.3s ease;
 }
 
 .activity-tabs button.active {
-  background-color: #2196f3;
+  background-color: #6a4c93;
   color: #ffffff;
 }
 
 .activity-tabs button:hover {
-  background-color: #cccccc;
+  box-shadow: 0 0 3px #000;
 }
 
 ul {
@@ -70,10 +74,12 @@ li {
 }
 
 .friend-activity {
+  font-size: 15px;
   color: #777777;
 }
 
 .friend-time {
+  font-size: 14px;
   color: #999999;
 }
 

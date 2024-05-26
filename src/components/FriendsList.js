@@ -28,11 +28,9 @@ const FriendsList = () => {
                     </li>
                 ))}
             </ul>
-            <div className="live-map">
-                <h2>Live Map</h2>
+            <h2>Live Map</h2>
                 <div className="map-placeholder">
                 </div>
-            </div>
         </div>
         
     );
