@@ -22,8 +22,10 @@ const ActivityCards = () => {
                         <div className="progress-bar">
                             <div className="progress" style={{ width: `${activity.progress}%` }}></div>
                         </div>
-                        <div className="activity-details">{activity.progress}%</div>
-                        <div className="activity-deadline">{activity.daysLeft} days left</div>
+                        <div className="progress-details">
+                            <span className="progress-percent">{activity.progress}%</span>
+                            <span className="days-left">{activity.daysLeft} days left</span>
+                        </div>
                     </div>
                 </div>
             ))}

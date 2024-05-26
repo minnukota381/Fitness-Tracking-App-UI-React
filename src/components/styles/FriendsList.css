@@ -3,6 +3,17 @@
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column; 
+}
+
+.live-map {
+  padding: 10px;
+  background-color: #f3f4f6;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin-top: 20px; 
 }
 
 .friends-list h2 {
@@ -13,7 +24,7 @@
 
 .activity-tabs {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-end; /* Align tabs to the right */
   margin-bottom: 20px;
 }
 
@@ -64,4 +75,16 @@ li {
 
 .friend-time {
   color: #999999;
+}
+
+.live-map h2 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.map-placeholder {
+  width: 100%;
+  height: 200px;
+  background-color: #e0e0e0;
+  border-radius: 12px;
 }

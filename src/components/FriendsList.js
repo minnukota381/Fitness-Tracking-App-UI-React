@@ -1,13 +1,13 @@
+// FriendsList.js
 import React from 'react';
 import './styles/FriendsList.css';
 
 const FriendsList = () => {
     const friends = [
-        { name: "Max Stone", activity: "Weekly Bicycle", time: "10 min ago" },
-        { name: "Grisha Jack", activity: "Slow Jogging", time: "22 min ago" },
-        { name: "Levi Patrick", activity: "Morning Swim", time: "32 min ago" },
-        { name: "Cody Bryan", activity: "Quick Sprint", time: "37 min ago" },
-        { name: "Max Stone", activity: "Hiking", time: "1 hour ago" },
+        { name: "Kavya Balla", activity: "Skipping", time: "10 min ago" },
+        { name: "Bhargav Kola", activity: "Slow Jogging", time: "22 min ago" },
+        { name: "Sankar Kharada", activity: "Hiking", time: "32 min ago" },
+        { name: "Chaitanya Kunchala", activity: "Quick Sprint", time: "37 min ago" },
     ];
 
     return (
@@ -28,8 +28,15 @@ const FriendsList = () => {
                     </li>
                 ))}
             </ul>
+            <div className="live-map">
+                <h2>Live Map</h2>
+                <div className="map-placeholder">
+                </div>
+            </div>
         </div>
+        
     );
 };
+
 
 export default FriendsList;
