@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/Header.css';
 import profilePic from './Assets/minnu.JPG';
-import { FaSearch } from 'react-icons/fa'; // Import search icon from react-icons library
+import { FaSearch } from 'react-icons/fa';
 
 const Header = () => {
     return (
