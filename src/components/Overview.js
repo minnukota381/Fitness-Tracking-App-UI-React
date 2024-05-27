@@ -13,7 +13,6 @@ import {
 } from 'chart.js';
 import './styles/Overview.css';
 
-// Register components
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, Filler);
 
 const Overview = () => {
@@ -36,7 +35,7 @@ const Overview = () => {
     });
 
     useEffect(() => {
-        fetch('https://mockapi.io/endpoint') // Replace with your API endpoint
+        fetch('https://mockapi.io/endpoint')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');

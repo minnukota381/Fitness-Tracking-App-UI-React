@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/Sidebar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faRunning, faChartBar, faCog, faSignOutAlt } from '@fortawesome/free-solid-svg-icons'; // Import the logout icon
+import { faHome, faRunning, faChartBar, faCog, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
 
 import { SiNeptune } from "react-icons/si";
 

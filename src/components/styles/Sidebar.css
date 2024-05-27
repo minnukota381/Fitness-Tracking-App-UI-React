@@ -30,18 +30,19 @@ nav ul li {
   margin-bottom: 20px;
   color: #fff;
   cursor: pointer;
+  padding: 10px;
 }
 
 nav ul li span {
   margin-top: 5px;
   font-size: 12px;
   text-align: center;
+  padding: 10px;
 }
 
 nav ul li:hover {
   background-color: #825acb;
-  border-radius: 30px;
-  padding: 10px;
+  border-radius: 12px;
 }
 
 nav ul li:hover span {
