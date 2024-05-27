@@ -1,4 +1,3 @@
-// FriendsList.js
 import React from 'react';
 import './styles/FriendsList.css';
 import { FaUserFriends } from "react-icons/fa";
@@ -29,13 +28,16 @@ const FriendsList = () => {
                     </li>
                 ))}
             </ul>
-            <h2>Live Map</h2>
-                <div className="map-placeholder">
+            <div className="fitness-summary">
+                <h2>Fitness Summary</h2>
+                <div className="summary-info">
+                    <p>Total Distance: 45 km</p>
+                    <p>Total Steps: 20,000</p>
+                    <p>Calories Burned: 1500 kcal</p>
                 </div>
+            </div>
         </div>
-        
     );
 };
-
 
 export default FriendsList;

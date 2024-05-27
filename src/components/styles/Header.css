@@ -1,7 +1,7 @@
 .header {
   background-color: #6a4c93;
-  margin-top: 0px;
-  padding: 15px;
+  margin-top: 0; /* Remove margin top */
+  padding: 10px 15px; /* Adjust padding */
   color: white;
   display: flex;
   border-radius: 30px;
@@ -9,6 +9,7 @@
   justify-content: space-between;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 h1{
   font-weight: 900;
   text-transform: uppercase;

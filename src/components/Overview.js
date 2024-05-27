@@ -128,7 +128,7 @@ const Overview = () => {
                         </div>
                         <div className="details">
                             <span>748 Hr</span>
-                            <span>75%</span>
+                            <span>May</span>
                         </div>
                     </div>
                     <div className="stat">
@@ -138,7 +138,7 @@ const Overview = () => {
                         </div>
                         <div className="details">
                             <span>9,178 St</span>
-                            <span>90%</span>
+                            <span>May</span>
                         </div>
                     </div>
                     <div className="stat">
@@ -148,7 +148,7 @@ const Overview = () => {
                         </div>
                         <div className="details">
                             <span>9,200 St</span>
-                            <span>95%</span>
+                            <span>May</span>
                         </div>
                     </div>
                 </div>
