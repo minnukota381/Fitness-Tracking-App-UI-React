@@ -15,13 +15,14 @@
 .overview-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .stats {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 20%;
 }
 
 .stat {
@@ -60,6 +61,7 @@
 .chart {
   flex: 1;
   height: 250px;
+  width: 50%;
 }
 
 .chart canvas {
