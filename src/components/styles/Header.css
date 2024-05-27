@@ -1,7 +1,7 @@
 .header {
   background-color: #6a4c93;
-  margin-top: 0; /* Remove margin top */
-  padding: 10px 15px; /* Adjust padding */
+  margin-top: 0;
+  padding: 10px 15px;
   color: white;
   display: flex;
   border-radius: 30px;

@@ -15,7 +15,7 @@
   margin: 10px; 
   padding: 20px;
   border-radius: 30px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.329);
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .activity-icon {
