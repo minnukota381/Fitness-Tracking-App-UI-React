@@ -1,6 +1,7 @@
 # Fitness Tracker Application
 
 ## Table of Contents
+
 - [Introduction](#introduction)
 - [Features](#features)
 - [Screenshots](#screenshots)
@@ -8,14 +9,15 @@
 - [Usage](#usage)
 - [Technologies](#technologies)
 - [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
+
 The Fitness Tracker Application is a React-based web application designed to help users monitor their fitness activities. It features an overview of their progress, activity cards, friends list, and more, making it easy to keep track of fitness goals and stay motivated.
 
 ## Features
+
 - **Overview Section**: Displays total time, steps, and target achievements.
 - **Activity Cards**: Show progress of various activities like biking, jogging, and walking.
 - **Friends List**: Displays friends' recent activities and progress.
@@ -24,40 +26,50 @@ The Fitness Tracker Application is a React-based web application designed to hel
 - **Charts**: Visual representation of fitness data using line and doughnut charts.
 
 ## Screenshots
-![Fitness Tracker Overview](./screenshots/overview.png)
-![Activity Cards](./screenshots/activity-cards.png)
-![Friends List](./screenshots/friends-list.png)
+
+![Fitness Tracker Overview](./Screenshots/FTHOME.png)
 
 ## Installation
+
 1. Clone the repository:
+
     ```bash
-    git clone https://github.com/yourusername/fitness-tracker.git
+    git clone https://github.com/minnukota381/CodeAlpha-Fitness-Tracking-App.git
     ```
+
 2. Navigate to the project directory:
+
     ```bash
-    cd fitness-tracker
+    cd Fitness-Tracking-App
     ```
+
 3. Install the dependencies:
+
     ```bash
     npm install
     ```
+
 4. Start the development server:
+
     ```bash
     npm start
     ```
 
 ## Usage
+
 1. Open your browser and go to `http://localhost:3000` to see the application in action.
 2. Use the sidebar to navigate through different sections of the application.
 3. View your fitness progress, check your friends' activities, and manage your fitness goals.
 
 ## Technologies
+
 - **React**: JavaScript library for building user interfaces.
 - **Chart.js**: For creating interactive charts.
 - **React-Icons**: For integrating icons in the UI.
 - **CSS3**: For styling the application.
 
 ## Folder Structure
+
 ```plaintext
 fitness-tracker/
 │
@@ -92,12 +104,10 @@ fitness-tracker/
 └── package.json
 ```
 
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your changes. Ensure your code follows the existing style and includes relevant tests.
-
 ## License
+
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
+
 - Thanks to the open-source community for providing valuable libraries and tools.
-- Special thanks to all contributors of this project.
