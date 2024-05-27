@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaBiking, FaRunning, FaWalking } from 'react-icons/fa'; // Import FontAwesome icons
+import { FaBiking, FaRunning, FaWalking } from 'react-icons/fa';
 import './styles/ActivityCards.css';
 
 const ActivityCards = () => {
