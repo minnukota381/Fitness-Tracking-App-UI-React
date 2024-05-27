@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles/FriendsList.css';
-import { FaUserFriends } from "react-icons/fa";
+import { FaUserFriends, FaAngleRight } from "react-icons/fa";
 import Kavya from './Assets/kavya.jpg';
 import Bhargav from './Assets/bhargav.jpg';
 import Sankar from './Assets/sankar.jpg';
@@ -16,7 +16,10 @@ const FriendsList = () => {
 
     return (
         <div className="friends-list">
-            <h2><FaUserFriends /> Friends</h2>
+            <div className="header-section">
+                <h2><FaUserFriends /> Friends</h2>
+                <button className="view-all-button">View All <FaAngleRight /></button>
+            </div>
             <div className="activity-tabs">
                 <button className="active">Activities</button>
                 <button>Online</button>
