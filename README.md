@@ -34,7 +34,7 @@ The Fitness Tracker Application is a React-based web application designed to hel
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/minnukota381/CodeAlpha-Fitness-Tracking-App-UI-React.git
+    git clone https://github.com/minnukota381/Fitness-Tracking-App-UI-React.git
     ```
 
 2. Navigate to the project directory:
