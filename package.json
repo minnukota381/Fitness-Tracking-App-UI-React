@@ -11,7 +11,7 @@
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^14.6.1",
     "animate.css": "^4.1.1",
-    "bootstrap": "^5.3.3",
+    "bootstrap": "^5.3.5",
     "chart.js": "^4.4.8",
     "react": "^19.1.0",
     "react-chartjs-2": "^5.3.0",
