@@ -16,7 +16,7 @@
     "react": "^19.2.3",
     "react-chartjs-2": "^5.3.1",
     "react-circular-progressbar": "^2.2.0",
-    "react-dom": "^19.2.0",
+    "react-dom": "^19.2.3",
     "react-icons": "^5.5.0",
     "react-minimal-pie-chart": "^9.1.2",
     "react-router-dom": "^7.9.6",
